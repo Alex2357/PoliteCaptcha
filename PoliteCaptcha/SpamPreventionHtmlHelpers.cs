@@ -16,7 +16,7 @@ namespace PoliteCaptcha
         /// <param name="htmlHelper">The view's HTML helper.</param>
         /// <param name="fallbackMessage">An optional message to display above the CAPTCHA when it is displayed as a fallback.</param>
         /// <returns>The spam prevention form fields' HTML</returns>
-        public static IHtmlString SpamPreventionFields(
+        public static IHtmlString SpamPreventionFie(
             this HtmlHelper htmlHelper,
             string fallbackMessage = null)
         {
